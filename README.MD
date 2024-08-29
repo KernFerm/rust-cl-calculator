@@ -8,6 +8,13 @@ Welcome to the Rust Command-Line Calculator! This is a simple command-line appli
 - Subtraction
 - Multiplication
 - Division
+- Percentage
+- SquareRoot
+
+## Screenshot
+
+![Rust Calculator](https://github.com/KernFerm/calculator-n-rust/blob/main/rust-calculator.png)
+
 
 ## Prerequisites
 
@@ -79,10 +86,6 @@ rustup target list --installed
 - Created by [Bubbles The Dev](https://www.github.com/kernferm)
 
 ------
-
-## Screenshot
-
-![Rust Calculator](https://github.com/KernFerm/calculator-n-rust/blob/main/rust-calculator.png)
 
 -----
 ```rust
