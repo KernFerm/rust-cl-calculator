@@ -80,6 +80,10 @@ rustup target list --installed
 
 ------
 
+## Screenshot
+
+![Rust Calculator](https://github.com/KernFerm/calculator-n-rust/blob/main/rust-calculator.png)
+
 -----
 ```rust
 use std::io::{self, Write};
