@@ -15,7 +15,10 @@ Welcome to the Rust Command-Line Calculator! This is a simple command-line appli
 
 ## Screenshot
 
-![Rust Calculator](https://github.com/KernFerm/calculator-n-rust/blob/main/rust-calculator.png)
+![Screenshot 1 of Rust Calculator](https://github.com/KernFerm/calculator-n-rust/blob/main/screenshots/Screenshot-1.png)
+![Screenshot 2 of Rust Calculator](https://github.com/KernFerm/calculator-n-rust/blob/main/screenshots/Screenshot-2.png)
+![Screenshot 3 of Rust Calculator](https://github.com/KernFerm/calculator-n-rust/blob/main/screenshots/Screenshot-3.png)
+![Screenshot 4 of Rust Calculator](https://github.com/KernFerm/calculator-n-rust/blob/main/screenshots/Screenshot-4.png)
 
 
 ## Prerequisites
