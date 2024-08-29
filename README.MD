@@ -51,7 +51,6 @@ Welcome to the Rust Command-Line Calculator! This is a simple command-line appli
 
 Welcome to the Rust Command-Line Calculator!
 - Enter the first number (or 'q' to quit): 10 Operators:
-
 - Addition
 - Subtraction
 - Multiplication / Division Enter the operator: + Enter the second number: 5 Result: 10 + 5 = 15
