@@ -12,7 +12,7 @@ Welcome to the Rust Command-Line Calculator! This is a simple command-line appli
 ## Prerequisites
 
 - [Rust](https://www.rust-lang.org/tools/install) (Make sure you have Rust installed on your machine)
-- **`Windows Only`**
+- **`WINDOWS OS`**
 
 ## How to Use
 
@@ -69,7 +69,7 @@ rustup target list --installed
 ```
 
 - You should see `x86_64-unknown-linux-gnu` (or a similar 64-bit target) in the list of installed targets.
-- `Windows Only`
+- **`WINDOWS OS`**
 
 ## License
 
