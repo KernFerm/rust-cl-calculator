@@ -10,6 +10,8 @@ Welcome to the Rust Command-Line Calculator! This is a simple command-line appli
 - Division
 - Percentage
 - SquareRoot
+- Modulus
+- Power
 
 ## Screenshot
 
