@@ -56,7 +56,7 @@ Welcome to the Rust Command-Line Calculator!
 - Multiplication / Division Enter the operator: + Enter the second number: 5 Result: 10 + 5 = 15
 - Enter the first number (or 'q' to quit): q
 
-Thank you for using the calculator! Created by Bubbles The Dev, Goodbye.
+`Thank you for using the calculator! Created by Bubbles The Dev, Goodbye.`
 
 
 ## Building on a 64-bit System
