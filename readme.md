@@ -78,3 +78,94 @@ rustup target list --installed
 - Created by Bubbles The Dev
 
 ------
+
+
+### [`src/main.rs`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fc%3A%2FUsers%2Fttvbu%2FOneDrive%2FDesktop%2Fcalculator-n-rust%2Fcalculator%2Fsrc%2Fmain.rs%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\ttvbu\OneDrive\Desktop\calculator-n-rust\calculator\src\main.rs")
+```rust
+use std::io::{self, Write};
+
+fn main() {
+    println!("Welcome to the Rust Command-Line Calculator!");
+    println!("===========================================\n");
+
+    loop {
+        // Prompt for the first number
+        print!("Enter the first number (or 'q' to quit): ");
+        io::stdout().flush().unwrap(); // Ensure the prompt is printed immediately
+        let mut num1_str = String::new();
+        io::stdin().read_line(&mut num1_str).expect("Failed to read line");
+        if num1_str.trim().to_lowercase() == "q" {
+            println!("\nThank you for using the calculator! Created by Bubbles The Dev, Goodbye.");
+            break;
+        }
+        let num1: f64 = match num1_str.trim().parse() {
+            Ok(num) => num,
+            Err(_) => {
+                println!("⚠️  Please enter a valid number.\n");
+                continue;
+            }
+        };
+
+        // Prompt for the operator
+        println!("\nOperators:");
+        println!("  + : Addition");
+        println!("  - : Subtraction");
+        println!("  * : Multiplication");
+        println!("  / : Division");
+        println!("  % : Modulus");
+        println!("  ^ : Power");
+        println!(" sqrt : Square Root");
+        print!("\nEnter an operator: ");
+        io::stdout().flush().unwrap();
+        let mut operator = String::new();
+        io::stdin().read_line(&mut operator).expect("Failed to read line");
+        let operator = operator.trim();
+
+        // Prompt for the second number if not using sqrt
+        let num2: f64;
+        if operator != "sqrt" {
+            print!("Enter the second number: ");
+            io::stdout().flush().unwrap();
+            let mut num2_str = String::new();
+            io::stdin().read_line(&mut num2_str).expect("Failed to read line");
+            num2 = match num2_str.trim().parse() {
+                Ok(num) => num,
+                Err(_) => {
+                    println!("⚠️  Please enter a valid number.\n");
+                    continue;
+                }
+            };
+        } else {
+            num2 = 0.0; // Placeholder for sqrt operation
+        }
+
+        // Perform the calculation
+        let result = match operator {
+            "+" => num1 + num2,
+            "-" => num1 - num2,
+            "*" => num1 * num2,
+            "/" => {
+                if num2 == 0.0 {
+                    println!("⚠️  Division by zero is not allowed.\n");
+                    continue;
+                }
+                num1 / num2
+            }
+            "%" => num1 % num2,
+            "^" => num1.powf(num2),
+            "sqrt" => num1.sqrt(),
+            _ => {
+                println!("⚠️  Invalid operator.\n");
+                continue;
+            }
+        };
+
+        // Display the result
+        if operator == "sqrt" {
+            println!("\nResult: sqrt({}) = {}\n", num1, result);
+        } else {
+            println!("\nResult: {} {} {} = {}\n", num1, operator, num2, result);
+        }
+    }
+}
+```
