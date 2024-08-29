@@ -12,7 +12,7 @@ Welcome to the Rust Command-Line Calculator! This is a simple command-line appli
 ## Prerequisites
 
 - [Rust](https://www.rust-lang.org/tools/install) (Make sure you have Rust installed on your machine)
-- `**Windows Only**`
+- **`Windows Only`**
 
 ## How to Use
 
