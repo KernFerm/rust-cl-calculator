@@ -75,7 +75,7 @@ rustup target list --installed
 
 ## Acknowledgements
 
-- Created by Bubbles The Dev
+- Created by [Bubbles The Dev](https://github.com/kermferm)
 
 ------
 
