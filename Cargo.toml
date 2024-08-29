@@ -1,0 +1,7 @@
+[package]
+name = "rust-command-line-calculator"
+version = "0.1.0"
+authors = ["Bubbles The Dev kernferm@gmail.com"]
+edition = "2018"
+
+[dependencies]
