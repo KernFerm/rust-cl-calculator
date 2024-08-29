@@ -79,8 +79,7 @@ rustup target list --installed
 
 ------
 
-
-### [`src/main.rs`](command:_github.copilot.openRelativePath?%5B%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fc%3A%2FUsers%2Fttvbu%2FOneDrive%2FDesktop%2Fcalculator-n-rust%2Fcalculator%2Fsrc%2Fmain.rs%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%5D "c:\Users\ttvbu\OneDrive\Desktop\calculator-n-rust\calculator\src\main.rs")
+-----
 ```rust
 use std::io::{self, Write};
 
