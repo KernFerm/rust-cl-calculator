@@ -2,6 +2,8 @@
 
 Welcome to the Rust Command-Line Calculator! This is a simple command-line application written in Rust that allows you to perform basic arithmetic operations.
 
+- [https://discord.gg/FxJd3PxXbc](https://discord.gg/FxJd3PxXbc)
+
 ## Features
 
 - Addition
